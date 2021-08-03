@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border-style: double;
+    margin-top: 170px;
+}
+#home{
+    position: absolute;
+    height: 800px;
+    color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: linear-gradient(#ffdede 0%,#c2000a 100%);
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 300;
+}
+h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(#ffdede 0%,#c2000a 100%);
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    height: 1.3;
+}
