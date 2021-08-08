@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding-top: 800px;
+    padding-top: 600px;
     text-align: center;
 }
 .profile{
@@ -39,7 +39,8 @@ h2{
 #bio{
     padding: 50px;
     text-align: center;
-    background: linear-gradient(#ffdede 0%,#c2000a 100%);
+    background: linear-gradient(#c2000a 40%,#ffdede 100%);
+    height: 600px;
 }
 .line{
     height: 6px;
@@ -52,4 +53,28 @@ p{
     margin: 25px auto;
     font-size: 20px;
     height: 1.3;
+}
+.name{
+    font-family: 'Dancing Script', cursive;
+}
+.menu{
+    list-style: none;
+    font-family:cursive;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.links:hover{
+    background-color:#ffa3a6;
 }
